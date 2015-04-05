@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	
+	color:#00A7FE;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-weight:bold;
+	font-size: 600%;
+	padding-top:10%;
+	padding-bottom:0%;
+	margin-bottom:0%;
+	max-width:100%;
+}
+p {
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	padding-top:0%;
+	line-height:135%;
+}
+body {
+	background-color: #1B1B1B;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  background: none;
+  font-size: 14px;
+  padding: 15px 25px 15px 25px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00a7fe;
+  text-decoration: none;
+  border-radius: 0px;
+  border-color:#00A7fe;
+  transition: background-color .5s ease;
+}
+nav {
+	position:relative;
+	z-index:10;
+	left:50%;
+	right:50%;
+}
+#overLay {
+  opacity: 0.75; 
+  background: -webkit-linear-gradient(bottom,rgba(255,0,0,0),rgba(4,168,254,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(255,0,0,0),rgba(4,168,254,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(255,0,0,0),rgba(4,168,254,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(4,168,254,1)); /*Standard*/
+  width: 100%;
+  height: 50%; 
+  z-index: 5;
+  top:70%; 
+  left:0px; 
+  position: fixed;
+}
+@media only screen and (min-width: 1551px) {
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+	z-index:10;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center; 
+}
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center top; 
+	
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: left top; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center top; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: left; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:130%;
+	background-position: center; 
+}
+}
+@media only screen and (min-width: 701px) and (max-width: 1100px) {
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center top; 
+	
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: left top; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: left bottom; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:250%;
+	background-position: center; 
+}
+}
+@media only screen and (min-width: 0) and (max-width: 700px) {
+
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: center; 
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: left; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: left bottom; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:350%;
+	background-position: center; 
+}
+}
+@media only screen and (min-width: 1101px) and (max-width: 1199px) {
+.introSections {
+	max-width: 100%;
+	max-height: 100%;
+	background-color:#1b1b1b;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.contentSections {
+	width:100vw;
+	height:100vh;
+	max-height:100%;
+	max-width:100%;
+	display:inline-block;
+}
+#introContent{
+	background-image: url('Introduction.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: center; 
+}
+#photography{
+	background-image:url('Photography.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: left; 
+}
+#stopMotion{
+	background-image:url('Stop-Motion.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: left bottom; 
+}
+#webDesign{
+	background-image:url('Web-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: center; 
+}
+#audio{
+	background-image:url('Music.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: center; 
+}
+#ThreeDgraphicsContent{
+	background-image:url('ThreeDGraphics.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: center; 
+}
+#gameDesign{
+	background-image:url('Game-Design.jpg');
+	background-repeat: no-repeat;
+	background-size:150%;
+	background-position: center; 
+}
+}
