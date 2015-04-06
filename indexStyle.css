@@ -50,15 +50,15 @@ body {
   border: solid #00a7fe 2px;
   background:none;
   text-decoration: none;
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 20px;
+  min-width: 20px;
 }
 .sidebtn:hover {
   background: #00a7fe;
   text-decoration: none;
 }
 #navigation {
-	display:block;
+	display: block;
 	position:fixed;
 	z-index:10;
 	right:5%;
