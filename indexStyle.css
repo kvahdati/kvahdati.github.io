@@ -42,6 +42,18 @@ body {
   border-color:#00A7fe;
   transition: background-color .5s ease;
 }
+.sidebtn {
+  font-family: 'Lato';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #00a7fe 2px;
+  text-decoration: none;
+}
+.sidebtn:hover {
+  background: #00a7fe;
+  text-decoration: none;
+}
 nav {
 	position:relative;
 	z-index:10;
