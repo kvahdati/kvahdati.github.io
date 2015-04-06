@@ -60,8 +60,9 @@ body {
 #navigation {
 	position:fixed;
 	z-index:10;
-	left:50%;
-	right:50%;
+	right:5%;
+	top:50%;
+	bottom:50%;
 }
 #overLay {
   opacity: 0.75; 
