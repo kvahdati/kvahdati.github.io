@@ -1,32 +1,32 @@
 // JavaScript Document
 			$(function(){
-				$("#photo").click(function(e){
+				$("#home").click(function(e){
 					e.preventDefault();
-					$("#photography").scrollintoview({ duration: 300});
+					$("#introContent").scrollintoview({ duration: 400});
 				});
 				$("#photo").click(function(e){
 					e.preventDefault();
-					$("#photography").scrollintoview({ duration: 600});
+					$("#photography").scrollintoview({ duration: 400});
 				});
 				$("#stop").click(function(e){
 					e.preventDefault();
-					$("#stopMotion").scrollintoview({ duration: 900});
+					$("#stopMotion").scrollintoview({ duration: 400});
 				});
 				$("#noise").click(function(e){
 					e.preventDefault();
-					$("#audio").scrollintoview({ duration: 1200});
+					$("#audio").scrollintoview({ duration: 400});
 				});
 				$("#graphics").click(function(e){
 					e.preventDefault();
-					$("#ThreeDgraphics").scrollintoview({ duration: 1500});
+					$("#ThreeDgraphics").scrollintoview({ duration: 400});
 				});
 				$("#web").click(function(e){
 					e.preventDefault();
-					$("#webDesign").scrollintoview({ duration: 1800});
+					$("#webDesign").scrollintoview({ duration: 400});
 				});
 				$("#game").click(function(e){
 					e.preventDefault();
-					$("#gameDesign").scrollintoview({ duration: 2100});
+					$("#gameDesign").scrollintoview({ duration: 400});
 				});
 				
 			});
