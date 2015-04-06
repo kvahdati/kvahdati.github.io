@@ -55,8 +55,8 @@ body {
   background: #00a7fe;
   text-decoration: none;
 }
-nav {
-	position:relative;
+#navigation {
+	position:fixed;
 	z-index:10;
 	left:50%;
 	right:50%;
