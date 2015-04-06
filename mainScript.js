@@ -1,5 +1,9 @@
 // JavaScript Document
 			$(function(){
+				$("#scroll").click(function(e){
+					e.preventDefault();
+					$("#photography").scrollintoview({ duration: 400});
+				})
 				$("#home").click(function(e){
 					e.preventDefault();
 					$("#introContent").scrollintoview({ duration: 400});
