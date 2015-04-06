@@ -61,7 +61,7 @@ body {
 #navigation {
 	position:fixed;
 	z-index:10;
-	right:5%;
+	right:2%;
 	top:50%;
 	transform: translateY(-50%);
 }
