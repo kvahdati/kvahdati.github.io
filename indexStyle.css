@@ -50,6 +50,8 @@ body {
   border: solid #00a7fe 2px;
   background:none;
   text-decoration: none;
+  min-height: 40px;
+  min-width: 40px;
 }
 .sidebtn:hover {
   background: #00a7fe;
