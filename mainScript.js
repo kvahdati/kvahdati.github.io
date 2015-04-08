@@ -34,11 +34,3 @@
 				});
 				
 			});
-			function AlertNewpageA(pageName)
-			{
-				alert("This button would link to a "+pageName+" page.");
-			}
-			function AlertNewpageAn(pageName)
-			{
-				alert("This button would link to an " +pageName+" page.");
-			}

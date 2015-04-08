@@ -140,6 +140,9 @@ body {
 }
 }
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
+.fixMobile {
+display: none;
+}
 .introSections {
 	max-width: 100%;
 	max-height: 100%;
@@ -259,7 +262,9 @@ body {
 }
 }
 @media only screen and (min-width: 701px) and (max-width: 1100px) {
-
+.fixMobile {
+display: none;
+}
 .introSections {
 	max-width: 100%;
 	max-height: 100%;
